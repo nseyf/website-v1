@@ -1,0 +1,271 @@
+@media(min-device-width : 320px) and (max-device-width : 768px) {
+.bio {
+  font-size: 20px;
+}
+
+
+  .portfolio-project-cell {
+    margin: 0 auto;  }
+}
+
+@media(min-width:768px)  {
+  .navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding: 15px 0;
+}
+.container-fluid {
+  height: auto;
+  width: 100%;
+}
+  a {
+    text-decoration: none;
+    position: relative;
+  }
+  a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid black;
+  transition: 0.4s;
+}
+  a:hover:after {
+    width: 100%;
+  }
+
+  .navbar-default.affix {
+    padding: 0;
+  }
+}
+
+#splash {
+  display:none;
+  background: url('https://nseyf.github.io/wallpaper.jpg');
+background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 100vh;
+}
+
+#html {
+  color: #FF5733;
+}
+#css {
+  color: blue;
+}
+#javascript {
+  color: yellow;
+}
+#jquery {
+  color: #B42405
+}
+#bootstrap {
+  color: #661777;
+}
+#photoshop {
+  color: #3090C7;
+}
+#subtitle {
+ color: white;
+font-family: "Roboto";
+  text-align: center;
+}
+
+#name  {
+  font-size: 90px;
+  margin-top: 15%;
+ color: white;
+text-align: center;
+
+}
+
+.about-me {
+  font-size: 3em;
+}
+
+
+.header {
+  color: white;
+}
+
+#about {
+  background: #151515;
+}
+
+#icons {
+  text-align: center;
+  padding-top: 15px;
+
+}
+#icons i {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+#icons i:hover {
+  color: black;
+}
+.navbar {
+  background: white;
+  border: none;
+  font-family: "Roboto";
+  font-size: medium-large;
+-webkit-box-shadow:0px 1px 1px #de1dde;
+ -moz-box-shadow:0px 1px 1px #de1dde;
+ box-shadow:0px 1px 1px #de1dde;
+}
+.navbar-brand {
+  font-family: "Abril Fatface";
+  font-size: 3em;
+}
+#portfolio {
+  background: #151515
+}
+
+section {
+  overflow: hidden;
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
+#email {
+  font-family: "Abril Fatface";
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#number {
+ font-size:15px;
+  text-align: center;
+}
+#bioSummary {
+  text-align: center;
+  color: grey;
+  border-bottom: 1px solid black;
+  padding-bottom: 25px;
+}
+#contact {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid grey;
+  font-family: "Roboto";
+  font-size: medium-large;
+  color: grey;
+
+}
+.section-title {
+  font-size: 5.5em;
+  padding-top: 15px;
+  text-align: center;
+  color: grey;
+}
+
+.about-me-text {
+  font-size: 1.5em;
+}
+
+#skills li {
+  padding-top: 20px;
+}
+#skills li:first-child{
+  padding-top: 30px;
+}
+.subhead {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+.portfolioText {
+  text-align: justify;
+  padding-top: 10px;
+}
+.portfolioTitle {
+text-align: center;
+ font-size: 2em;
+padding-top: 10%;
+ color: white;
+ font-family: "Abril Fatface"
+}
+.portfolio-project-cell {
+display: inline-block;
+height:250px;
+
+
+}
+.portfolio-link:hover {
+  border-bottom: 1px solid black;
+}
+.bio {
+  font-size:  medium;
+  text-align: justify;
+  color: white;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: "Abril Fatface"
+}
+h2 {
+  font-family: "Abril Fatface";
+  color: grey;
+}
+h3 {
+  font-family: "Roboto";
+  text-align: center;
+  color: white;
+}
+.mainText {
+  font-family: "Roboto";
+  font-size: x-large;
+  text-align: justify;
+}
+.toFadeIn {
+  opacity: 0;
+}
+
+.portfolio {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+
+  text-align: center;
+  position: relative;
+}
+/*Portfolio Cell Backgrounds */
+#blogTheme {
+  background: #1a1a1a;
+}
+#restaurantTheme {
+  background: teal;
+}
+#movieSearch {
+  background: #e34234
+}
+#weatherApp {
+  background: #324A32
+}
+#randomQuoteMachine {
+  background: blue;
+}
+#jsCalculator {
+  background: linear-gradient(to left, #D31027, #EA384D)
+}
+#jQueryDictionary {
+  border: 1px solid #1a1a1a;
+  background: grey;
+  color: #1a1a1a;
+}
+#pomodoroTimer {
+  background: linear-gradient(to left, #fe8c00, #f83600)
+}
+#guessTheNumber {
+  background: linear-gradient(to left, #ff7e5f, #feb47b)
+}
+
+}
